@@ -1,0 +1,22 @@
+﻿-- DELETE pokemons WHERE categoria = 'SEED';
+-- DELETE pokemons WHERE nome LIKE 'Nid%';
+-- DELETE pokemons WHERE categoria LIKE 'Snow%';
+-- DELETE pokemons WHERE ataque = 2 OR defesa = 1;
+-- DELETE pokemons WHERE especial_ataque % 2 = 0;
+-- DELETE pokemons WHERE LEN(nome) = 10;
+-- DELETE pokemons WHERE LEN(categoria) < 4;
+-- DELETE pokemons WHERE velocidade % 2 = 1;
+-- DELETE pokemons WHERE nome LIKE 'Uno%' OR nome LIKE 'Char%';
+-- DELETE pokemons WHERE categoria = 'Flower' AND codigo > 45 AND codigo < 200; 
+-- DELETE pokemons WHERE descricao LIKE '%shell%';
+-- DELETE pokemons WHERE peso >= 100;
+-- DELETE pokemons WHERE altura < 1;
+-- DELETE pokemons WHERE especial_defesa > 3;
+-- DELETE pokemons WHERE DATALENGTH(descricao) > 150;
+-- DELETE pokemons WHERE descricao LIKE '%good%';
+-- DELETE pokemons WHERE codigo % 2 = 0;
+-- DELETE pokemons WHERE nome = 'Lileep';
+-- DELETE pokemons WHERE especial_ataque = 5;
+-- DELETE pokemons WHERE codigo < 100;
+
+SELECT * FROM pokemons;
