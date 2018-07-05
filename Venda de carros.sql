@@ -18,7 +18,7 @@ CREATE TABLE carros(
 	PRIMARY KEY(id), FOREIGN KEY(id_pessoa) REFERENCES pessoas(id)
 );
 
-INSERT INTO carros VALUES
+INSERT INTO carros(id_pessoa, marca, modelo,ano_lancamento, ano_fabricacao, motor, preco) VALUES
 ((SELECT id FROM pessoas WHERE nome = 'Abraão Nobre'), 'Volkswagen', 'Gol', 2010, 2009, '8v Power Flex', 'Vermelho', 18000.00),
 ((SELECT id FROM pessoas WHERE nome = 'Severino Braga'), 'Fiat', 'Brava', 2000, 1999, 'SX 1.6 16V', 'Cinza', 9000.00),
 ((SELECT id FROM pessoas WHERE nome = 'Samuel Faria'), 'Renault', 'Clio', 1997, 1996, '1.0 8v', 'Verde', 5500.00),
@@ -31,5 +31,15 @@ INSERT INTO pessoas VALUES
 ('Samuel Faria', '989.272.034-29'),
 ('Florêncio Robalo', '362.635.174-25');
 
-
+SELECT * FROM pessoas;
 SELECT * FROM carros;
+
+
+
+SELECT pessoas.nome 'Nome', carros.modelo 'Carro' FROM carros
+JOIN pessoas ON (pessoas.id = carros.id_pessoa)
+ORDER BY pessoas.nome, carros.modelo;
+
+SELECT pessoas.nome 'Nome', carros.modelo 'Carro' FROM carros
+JOIN pessoas ON (pessoas.id = carros.id_pessoa)
+WHERE pessoas.nome LIKE 'Samuel%';
