@@ -1,0 +1,10 @@
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\bin\Debug\AlunosBancoDados.exe.config
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.csprojResolveAssemblyReference.cache
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.Properties.Resources.resources
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.csproj.GenerateResource.Cache
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\bin\Debug\AlunosBancoDados.exe
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\bin\Debug\AlunosBancoDados.pdb
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.exe
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.pdb
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.ListaAlunos.resources
+C:\Users\104963\Documents\GitHub\Exercicios-BancoDeDados\AlunosBancoDados\AlunosBancoDados\obj\Debug\AlunosBancoDados.CadastroAluno.resources
